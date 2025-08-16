@@ -4,4 +4,4 @@ class Query(graphene.ObjectType):
     """
     Defines the root query fields for the CRM API
     """
-    hello = graphene.String(default_value="Hello, GraphQL!")
+    hello = graphene.String(default_value="Hello")
