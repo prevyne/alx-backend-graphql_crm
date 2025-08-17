@@ -45,7 +45,7 @@ def seed_data():
             )
             order.products.set(order_products)
     
-    print("Database has been seeded successfully! 🌱")
+    print("Database has been seeded successfully! ")
 
 if __name__ == '__main__':
     seed_data()
