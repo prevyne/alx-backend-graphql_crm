@@ -60,7 +60,7 @@ class OrderFilter(django_filters.FilterSet):
     customer_name = django_filters.CharFilter(field_name='customer__name', lookup_expr='icontains')
     product_name = django_filters.CharFilter(field_name='products__name', lookup_expr='icontains')
     
-    # Filter by specific product ID
+    # Filter by specific product id
     has_product_id = django_filters.NumberFilter(field_name='products__id', lookup_expr='exact')
 
     order_by = django_filters.OrderingFilter(
